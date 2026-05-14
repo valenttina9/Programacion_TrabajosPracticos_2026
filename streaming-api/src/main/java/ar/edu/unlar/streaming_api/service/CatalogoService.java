@@ -110,7 +110,7 @@ public class CatalogoService {
         c5.setDuracionSegundos(240);
         c5.setRating(4.2);
         c5.setFechaLanzamiento(LocalDate.of(2014, 12, 1));
-        c5.getReproducciones().set(2000);
+        c5.getReproducciones().set(5000);
         c5.setArtista(new Artista("Taylor Swift", "Inglaterra"));
         c5.setAlbum(new Album("You Belong to Me", new Artista("Taylor Swift", "Inglaterra")));
         canciones.add(c5);
